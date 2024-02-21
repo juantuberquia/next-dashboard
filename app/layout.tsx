@@ -10,6 +10,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className}`}>
         {children}
+        <footer className='text-center from-stone-400'> aqui esta el footer </footer>
       </body>
     </html>
   );
